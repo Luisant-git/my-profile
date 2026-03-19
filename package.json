@@ -1,7 +1,6 @@
 {
   "name": "my-portfolio",
   "version": "0.1.0",
-  "homepage": "https://pavi22835.github.io/My-Resume",
   "private": true,
   "dependencies": {
     "@heroicons/react": "^2.2.0",
