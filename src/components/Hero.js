@@ -1,4 +1,3 @@
-import { BsTwitter } from "react-icons/bs";
 import HeroImg from "../assets/Hero.jpg"
 import { AiOutlineTwitter, AiOutlineFacebook,AiOutlineLinkedin } from "react-icons/ai";
 
@@ -24,6 +23,6 @@ export default function Hero() {
             <a href={config.social.linkedin} className="pr-3 hover:text-blue-500"><AiOutlineLinkedin size={40}/></a>
           </div>
          </div>
-        <img className="md:w-1/4" src={HeroImg}/>
+        <img className="md:w-1/4" src={HeroImg} alt="Pavithra"/>
     </section>
 } 

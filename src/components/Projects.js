@@ -34,7 +34,7 @@ return <section id="projects" className="flex  flex-col py-20 px-5 justify-cente
             <div className='flex flex-col md:flex-row px-10 gap-5'>
                 {config.Projects.map((project) => (
                     <div className='relative'>
-                        <img className="h-[200px] w-[500px]" src={project.image} alt="Project Image" />
+                        <img className="h-[200px] w-[500px]" src={project.image} alt="Project" />
                         <div className='project-desc'>
                             <p className='text-center px-5 py-5'>
                                 {project.description}
